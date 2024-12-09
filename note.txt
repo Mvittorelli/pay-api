@@ -1,0 +1,20 @@
+/*  Mobile  */
+
+
+
+/*  Tablet  */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+
+
+/*  Pc  */
+
+@media screen and (min-width: 1040px) {
+
+}
+
+
+j'en suis au:ticket 6
