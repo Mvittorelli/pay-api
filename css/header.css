@@ -9,11 +9,9 @@ nav {
 	width: 90%;
 }
 
-ul li,
-.header-cta {
+ul li {
 	display: none;
 }
-
 .header-burger {
 	border: none;
 	background: none;
@@ -28,8 +26,7 @@ ul li,
 	}
 
 	ul li,
-	a,
-	.header-cta {
+	a {
 		display: inline;
 	}
 
@@ -51,9 +48,6 @@ ul li,
 		opacity: 100%;
 	}
 
-	.header-cta:hover {
-		background-color: #da6d97;
-	}
 	.header-burger {
 		display: none;
 	}
@@ -70,10 +64,5 @@ ul li,
 		font-weight: 800;
 		font-size: 110%;
 		width: 1100px;
-	}
-
-	.header-cta {
-		color: #fff;
-		padding: 20px 30px;
 	}
 }

@@ -5,34 +5,39 @@
 	color: #fff;
 	border-radius: 50px;
 	padding: 12px 20px;
-    
 }
 
 .form-schedule-btn {
 	width: 100%;
-    margin-top: 5%;
-    
+	margin-top: 5%;
 }
 
-.header-cta{
+.header-cta {
 	margin: 0 10%;
+	display: none;
 }
+
 @media screen and (min-width: 768px) {
 	.form-schedule-btn {
-       width: 60%;
-       margin: 0;
-       height: 100%;
-    }
-	
+		width: 60%;
+		margin: 0;
+		height: 100%;
+	}
+	.header-cta {
+		display: inline;
+	}
 }
 
 @media screen and (min-width: 1040px) {
 	.form-schedule-btn {
-       width: max-content;
-     
-    }
-	.header-cta{
-		margin: 0;
+		width: max-content;
 	}
-	
+	.header-cta {
+		margin: 0;
+		color: #fff;
+		padding: 20px 30px;
+	}
+	.schedule-btn:hover {
+		background-color: #da6d97;
+	}
 }

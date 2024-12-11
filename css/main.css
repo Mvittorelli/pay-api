@@ -11,9 +11,10 @@ h2 {
 	font-weight: 400;
 }
 
-h1 {
+h1, h2 {
 	color: #36536b;
 }
+
 
 a {
 	text-decoration: none;
@@ -26,3 +27,6 @@ main {
 	width: 100%;
 }
 
+p{
+	color: #6C8294;
+}

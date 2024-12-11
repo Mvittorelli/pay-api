@@ -21,7 +21,9 @@ h1{
 	font-size: 32px;
 }
 
-
+.home-hero img{
+	width: 20%;
+}
 
 /*  Tablet  */
 
@@ -43,12 +45,8 @@ h1{
 		justify-content: space-between;
 		padding: 2% 5%;
 	}
-	.home-hero img{
-		width: 35%;
-	}
-	h1{
-		/* font-size: ; */
-	}
+	
+	
 	.home-hero-div{
 		text-align: left;
 		align-items: flex-start;

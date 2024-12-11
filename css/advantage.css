@@ -1,0 +1,19 @@
+.advantage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.advantage-1,
+.advantage-2 {
+	width: 90%;
+}
+
+.advantage-text {
+	text-align: center;
+}
+
+.advantage-text h2 {
+	font-size: 36px;
+}

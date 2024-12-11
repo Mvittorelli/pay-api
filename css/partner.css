@@ -8,7 +8,7 @@
 	text-align: center;
 	color: #fff;
 	gap: 50px;
-	margin-top: 10%;
+	margin-top: 5%;
 	width: 100%;
 }
 
@@ -20,10 +20,14 @@
 
 .partner-text h2 {
 	font-size: 32px;
+	color: #fff;
 }
 
 .partner-text p {
 	font-size: 16px;
+	line-height: 28px;
+	color: #fbfcfe;
+	font-weight: 400;
 }
 
 .partner-text a {
@@ -55,7 +59,40 @@
 
 @media screen and (min-width: 768px) {
 	.partner {
+		padding: 5%;
+		overflow: hidden;
+	}
+	.partner-text h2 {
+		font-size: 48px;
+	}
+	.partner-text a {
+		padding: 2% 4%;
 	}
 }
 
+/*  Pc  */
 
+@media screen and (min-width: 1040px) {
+	.partner {
+		flex-direction: row-reverse;
+	}
+	.partner-text {
+		text-align: left;
+		align-items: flex-start;
+		padding: 5% 0 3% 5%;
+		width: 50%;
+	}
+	.partner-text p {
+		width: 80%;
+	}
+	.partner-list img {
+		width: 100%;
+		margin: auto;
+	}
+	.partner-list {
+		gap: 20px;
+	}
+	.partner-text a {
+		padding: 2% 3%;
+	}
+}
