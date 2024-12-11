@@ -1,7 +1,6 @@
 /*  Mobile  */
 .home-hero,
-.home-hero-div,
-.home-hero-form {
+.home-hero-div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -9,22 +8,50 @@
 	text-align: center;
 }
 
-.home-hero-form input {
-	width: 150%;
-	background-color: transparent;
-    outline: none;
-	box-shadow: 10px 10px 25px -10px #36536b40;
-    border: none;
-	border-radius: 50px;
-	padding: 12px 20px;
+.home-hero-div{
+	color: #6C8294;
 }
+
+.home-hero-div a{
+	font-weight: 600;
+	color: #6C8294;
+
+}
+h1{
+	font-size: 32px;
+}
+
+
 
 /*  Tablet  */
 
 @media screen and (min-width: 768px) {
+    h1{
+		font-size: 48px;
+		width: 70%;
+		margin: 0 0 4%;
+	}
 }
+
 
 /*  Pc  */
 
 @media screen and (min-width: 1040px) {
+	.home-hero{
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: space-between;
+		padding: 2% 5%;
+	}
+	.home-hero img{
+		width: 35%;
+	}
+	h1{
+		/* font-size: ; */
+	}
+	.home-hero-div{
+		text-align: left;
+		align-items: flex-start;
+		margin-left: 5%;
+	}
 }

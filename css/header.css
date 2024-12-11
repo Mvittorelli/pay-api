@@ -45,14 +45,11 @@ ul li,
 	.header-nav-a {
 		opacity: 70%;
 		color: #36536b;
-		text-decoration: none;
 		transition: 0.3s;
 	}
 	.header-nav-a:hover {
 		opacity: 100%;
 	}
-
-
 
 	.header-cta:hover {
 		background-color: #da6d97;
@@ -60,7 +57,7 @@ ul li,
 	.header-burger {
 		display: none;
 	}
-	ul{
+	ul {
 		display: flex;
 		gap: 5%;
 	}
@@ -69,7 +66,7 @@ ul li,
 /* 	Pc 	*/
 @media screen and (min-width: 1024px) {
 	nav {
-		padding: 3% ;
+		padding: 3%;
 		font-weight: 800;
 		font-size: 110%;
 		width: 1100px;
@@ -79,5 +76,4 @@ ul li,
 		color: #fff;
 		padding: 20px 30px;
 	}
-	
 }
