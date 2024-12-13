@@ -27,7 +27,7 @@
 @media screen and (min-width: 768px) {
 	.advantage-1,
 	.advantage-2 {
-		margin: 7% 0;
+		margin: 7% 0;																		
 		gap: 50px;
 		width: 70%;
 	}
