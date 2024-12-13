@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
 
+:root {
+	--dark-pink: #ba4270;
+	--link-water-white: #fbfcfe;
+}
+
 body {
 	font-family: "Public Sans", serif;
 }
@@ -11,10 +16,10 @@ h2 {
 	font-weight: 400;
 }
 
-h1, h2 {
+h1,
+h2 {
 	color: #36536b;
 }
-
 
 a {
 	text-decoration: none;
@@ -22,11 +27,12 @@ a {
 
 main {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 }
 
-p{
-	color: #6C8294;
+p {
+	color: #6c8294;
 }
