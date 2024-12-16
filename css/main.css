@@ -3,7 +3,11 @@
 
 :root {
 	--dark-pink: #ba4270;
+	--charm-pink: #da6d97;
 	--link-water-white: #fbfcfe;
+	--san-juan-blue: #36536b;
+	--mirage-blue: #1b262f;
+	--light-san-juan-blue: #6c8294;
 }
 
 body {
@@ -39,4 +43,12 @@ main {
 
 p {
 	color: #6c8294;
+}
+
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 48px;
+		width: 70%;
+		margin: 0 0 4%;
+	}
 }

@@ -8,7 +8,7 @@
 }
 
 .schedule-btn {
-	background-color: #ba4270;
+	background-color: var(--dark-pink);
 	box-shadow: 10px 10px 25px -10px #36536b40;
 	border: none;
 	color: #fff;
@@ -44,6 +44,6 @@
 		padding: 20px 30px;
 	}
 	.schedule-btn:hover {
-		background-color: #da6d97;
+		background-color: var(--charm-pink);
 	}
 }

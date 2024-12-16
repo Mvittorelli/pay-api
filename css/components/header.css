@@ -41,7 +41,7 @@ ul li {
 
 	.header-nav-a {
 		opacity: 70%;
-		color: #36536b;
+		color: var(--light-san-juan-blue);
 		transition: 0.3s;
 	}
 	.header-nav-a:hover {
