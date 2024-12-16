@@ -6,3 +6,44 @@
 	font-weight: bold;
 	border: none;
 }
+
+.schedule-btn {
+	background-color: #ba4270;
+	box-shadow: 10px 10px 25px -10px #36536b40;
+	border: none;
+	color: #fff;
+	border-radius: 50px;
+	padding: 12px 20px;
+}
+
+.form-schedule-btn {
+	width: 100%;
+	margin-top: 5%;
+}
+
+.header-cta {
+	margin: 0 10%;
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.form-schedule-btn {
+		width: 35%;
+		margin: 0;
+		height: 100%;
+	}
+	.header-cta {
+		display: inline;
+	}
+}
+
+@media screen and (min-width: 1040px) {
+	.header-cta {
+		margin: 0;
+		color: #fff;
+		padding: 20px 30px;
+	}
+	.schedule-btn:hover {
+		background-color: #da6d97;
+	}
+}

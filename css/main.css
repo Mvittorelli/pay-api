@@ -10,6 +10,10 @@ body {
 	font-family: "Public Sans", serif;
 }
 
+h1 {
+	font-size: 32px;
+}
+
 h1,
 h2 {
 	font-family: "DM Serif Display", serif;
